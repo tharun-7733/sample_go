@@ -20,6 +20,9 @@ func Authorization(next http.Handler) http.Handler {
 		var token string = r.Header.Get("Authorization")
 		var err error
 
+		log.Info("DEBUG - Received username: ", username)
+		log.Info("DEBUG - Received token: ", token)
+
 		if username == "" {
 			shared.RequestErrorHandler(w, UnAuthorizedError)
 			return

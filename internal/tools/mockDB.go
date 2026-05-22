@@ -7,30 +7,30 @@ import (
 type mockDB struct{}
 
 var mockLoginDetails = map[string]LoginDetails{
-	"alex": {
+	"Tharun": {
 		AuthToken: "123ABC",
-		Username:  "alex",
+		Username:  "Tharun",
 	},
-	"jason": {
+	"Tej": {
 		AuthToken: "456DEF",
-		Username:  "jason",
+		Username:  "Tej",
 	},
-	"marie": {
+	"Aksh": {
 		AuthToken: "789GHI",
-		Username:  "marie",
+		Username:  "Aksh",
 	},
 }
 
 var mockCoinDetails = map[string]CoinDetails{
-	"alex": {
+	"Tharun": {
 		Coins:   100,
 		Username: "Tharun",
 	},
-	"jason": {
+	"Tej": {
 		Coins:   200,
 		Username: "Tej",
 	},
-	"marie": {
+	"Aksh": {
 		Coins:   300,
 		Username: "Aksh",
 	},
