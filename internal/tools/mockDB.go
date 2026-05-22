@@ -24,15 +24,15 @@ var mockLoginDetails = map[string]LoginDetails{
 var mockCoinDetails = map[string]CoinDetails{
 	"alex": {
 		Coins:   100,
-		Username: "alex",
+		Username: "Tharun",
 	},
 	"jason": {
 		Coins:   200,
-		Username: "jason",
+		Username: "Tej",
 	},
 	"marie": {
 		Coins:   300,
-		Username: "marie",
+		Username: "Aksh",
 	},
 }
 
