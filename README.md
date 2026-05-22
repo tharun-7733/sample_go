@@ -74,9 +74,9 @@ JSON Response: {"balance": 100, "code": 200}
 
 | Username | Token | Coins |
 |----------|-------|-------|
-| alex | 123ABC | 100 |
-| jason | 456DEF | 200 |
-| marie | 789GHI | 300 |
+| Tharun | 123ABC | 100 |
+| Tej | 456DEF | 200 |
+| Aksh | 789GHI | 300 |
 
 ### 6. Shared Types (`internal/shared/`)
 - `CoinBalanceParams` - Request parameters
